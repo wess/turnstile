@@ -1,0 +1,7 @@
+version: 1
+mount:
+    test:
+        path: /test
+        methods:
+            - get
+        to: "https://www.google.com"
